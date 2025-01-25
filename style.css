@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+:root {
+    --primary-color: linear-gradient(45deg, #08881f, #30197d);
+    --secondary-color: #fff;
+    --clock-bg: rgba(235, 0, 255, 0.11);
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode {
+    --primary-color: linear-gradient(45deg, #1e1e1e, #3c3c3c);
+    --secondary-color: #e0e0e0;
+    --clock-bg: rgba(255, 255, 255, 0.15);
+    --shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    background: var(--clock-bg);
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    width: 350px;
+}
+
+.clock {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px; /* Space between time segments */
+}
+
+.clock span {
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.clock span::after {
+    font-size: 14px;
+    position: absolute;
+    bottom: -20px; /* Adjusted for better positioning */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.date {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.mode-button {
+    padding: 10px 20px;
+    background: #f41b75;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: var(--shadow);
+    transition: background 0.3s;
+}
+
+.mode-button:hover {
+    background: #ff4081;
+}
