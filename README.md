@@ -3,25 +3,15 @@
 A visually appealing digital clock built using HTML, CSS, and JavaScript, featuring dynamic time updates, a date display, and a toggle for dark and light modes. The project demonstrates fundamental web development concepts and styling techniques.
 
 # Features
-Real-Time Clock:
+Real-Time Clock: Displays the current time (hours, minutes, seconds) that updates dynamically every second.
 
-Displays the current time (hours, minutes, seconds) that updates dynamically every second.
+Date Display: Shows the current date in a readable format (e.g., "Saturday, January 25, 2025").
 
-Date Display:
+Dark/Light Mode Toggle: Allows users to switch between dark and light themes seamlessly.
 
-Shows the current date in a readable format (e.g., "Saturday, January 25, 2025").
+Responsive Design: The clock is styled to look great on various screen sizes and devices.
 
-Dark/Light Mode Toggle:
-
-Allows users to switch between dark and light themes seamlessly.
-
-Responsive Design:
-
-The clock is styled to look great on various screen sizes and devices.
-
-Clean and Modern UI:
-
-Aesthetic background gradients and smooth animations for an elegant look.
+Clean and Modern UI: Aesthetic background gradients and smooth animations for an elegant look.
 
 # Technology Stack
 
