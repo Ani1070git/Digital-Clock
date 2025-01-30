@@ -1,8 +1,8 @@
-# Digital-Clock
+# 📜Digital-Clock
 
 A visually appealing digital clock built using HTML, CSS, and JavaScript, featuring dynamic time updates, a date display, and a toggle for dark and light modes. The project demonstrates fundamental web development concepts and styling techniques.
 
-# Features
+# 🚀Features
 Real-Time Clock: Displays the current time (hours, minutes, seconds) that updates dynamically every second.
 
 Date Display: Shows the current date in a readable format (e.g., "Saturday, January 25, 2025").
@@ -13,7 +13,7 @@ Responsive Design: The clock is styled to look great on various screen sizes and
 
 Clean and Modern UI: Aesthetic background gradients and smooth animations for an elegant look.
 
-# Technology Stack
+# 🛠️Technology Stack
 
 HTML: Structure of the clock.
 
@@ -21,7 +21,7 @@ CSS: Styling, including gradient backgrounds, pseudo-elements, and responsivenes
 
 JavaScript: Handles the real-time updates and the dark/light mode toggle.
 
-# Future Improvements
+# 💡Future Improvements
 
 Add a settings panel for 12-hour/24-hour time format selection.
 
@@ -29,6 +29,6 @@ Implement animations for smooth transitions between themes.
 
 Add user-customizable themes.
 
-# Live Demo
+# 🔗Live Demo
 
 Click here to see the live demo of the project : [here](https://ani1070git.github.io/Digital-Clock/)
